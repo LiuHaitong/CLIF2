@@ -542,7 +542,7 @@ if (isset($_COOKIE['user'])) {
 					$exclusiongroup = $variableexclusionsnumerator[$querytablesnumerator[$q]];
 					$nummerexclusions = array();
 
-					$table = 'medication';
+					$table = 'treatment';
 					if (strstr(implode($exclusiongroup), '%')) {
 						$table = 'diagnosis';
 					}
